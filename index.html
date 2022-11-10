@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Portafolio #1</title>
+  <script src="assets/js/scrollreveal.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+  <script src="assets/js/mixitup.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav_logo">Academlo</a>
+      <div class="nav_menu" id="nav-menu">
+        <div class="nav_close" id="nav-close">
+          <i class='bx bx-x'></i>
+        </div>
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">Sobre mí</a>
+          </li>
+          <li class="nav_item">
+            <a href="#skills" class="nav_link">Habilidades</a>
+          </li>
+          <li class="nav_item">
+            <a href="#experience" class="nav_link">Experiencia</a>
+          </li>
+          <li class="nav_item">
+            <a href="#portfolio" class="nav_link">Portafolio</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact" class="nav_link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav_toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="home" id="home">
+      <div class="home_container container grid">
+        <div class="home_data">
+          <h1 class="home_title">Soy <span class="title-color">Hans Ribera</span></h1>
+          <p class="home_description">Creo, diseño y desarrollo para darle el valor a tu producto.</p>
+        </div>
+        <div class="home_image">
+          <img src="assets/img/yo.png" alt="yo" class="home_image-img">
+          <div class="balloon balloon-lf">
+            <h2 class="balloon_title">UI Designer</h2>
+            <span class="balloon_subtitle">4 dias</span>
+          </div>
+          <div class="balloon balloon-rt">
+            <h2 class="balloon_title">Frontend Dev</h2>
+            <span class="balloon_subtitle">1 mes</span>
+          </div>
+        </div>
+        <div class="home_social">
+          <a href="https://www.linkedin.com" target="_blank" class="home_social--link">
+            <i class='bx bxl-linkedin home_social-icon'></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" class="home_social--link">
+            <i class='bx bxl-instagram-alt home_social-icon'></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="home__social--link">
+            <i class='bx bxl-twitter home_social-icon'></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="suscribe" id="suscribe">
+      <div class="suscribe_container container">
+        <h2 class="suscribe_title">¿Te gustaría colaborar juntos creando productos increíbles?</h2>
+        <form class="suscribe_form grid">
+          <input class="suscribe_input" type="text" placeholder="Deja tu correo aquí...">
+          <button class="suscribe_button" type="button">¡Listo!</button>
+        </form>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about_container container">
+        <h2 class="about_title">Acerca de mí</h2>
+        <div class="about_data">
+          <p class="about_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt fugit 
+            quos vel aperiam ex dolore unde, esse aliquam optio distinctio doloribus possimus dolorum voluptatem sequi 
+            omnis natus commodi doloremque.</p>
+          <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam est, et reprehenderit,
+            eius at necessitatibus facere fuga recusandae omnis autem iusto perspiciatis velit voluptatem similique dicta 
+            quis, ullam eos doloribus?</p>
+        </div>
+        <div class="about_button-download">
+          <button class="about_button" type="button"><i class='bx bx-download'></i> <span>Download CV</span></button>
+        </div>
+      </div>
+      <div class="education_container container">
+        <h2 class="education_title">Estudios</h2>
+        <div class="education_data grid">
+          <div class="education_card">
+            <div class="eduaction_img-container">
+              <img src="assets/img/Tec.png" alt="education tec">
+            </div>
+            <div class="education_info">
+              <h2 class="eduaction_info--title">Tec de Monterrey</h2>
+              <span class="education_info--date">2022-2022</span>
+              <p class="education_info--description">Licenciatura en diseño industrial</p>
+            </div>
+          </div>
+          <div class="education_card">
+            <div class="eduaction_img-container">
+              <img src="assets/img/academlo.png" alt="education academlo">
+            </div>
+            <div class="education_info">
+              <h2 class="eduaction_info--title">Academlo</h2>
+              <span class="education_info--date">2022-2022</span>
+              <p class="education_info--description">Programa full stack</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="skills_container container grid">
+        <h2 class="skills_title">Mis habilidades</h2>
+        <div class="skills_content">
+          <div class="skills_item">
+            <div class="skills_icon-content">
+              <i class='bx bx-devices skills_icon'></i>
+            </div>
+            <div class="skills_data">
+              <h3 class="skills_data-title">Web design</h3>
+              <p class="skills_data-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, id!.</p>
+            </div>
+          </div>
+          <div class="skills_item">
+            <div class="skills_icon-content">
+              <i class='bx bxl-react skills_icon'></i>
+            </div>
+            <div class="skills_data">
+              <h3 class="skills_data-title">Frontend</h3>
+              <p class="skills_data-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque.</p>
+            </div>
+          </div> 
+          <div class="skills_item">
+            <div class="skills_icon-content">
+              <i class='bx bxl-nodejs skills__icon'></i>
+            </div>
+            <div class="skills_data">
+              <h3 class="skills_data-title">Backend</h3>
+              <p class="skills_data-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quos!</p>
+            </div>
+          </div> 
+          <div class="skills_item">
+            <div class="skills_icon-content">
+              <i class='bx bx-mobile-alt skills_icon'></i>
+            </div>
+            <div class="skills_data">
+              <h3 class="skills_data-title">Mobile design</h3>
+              <p class="skills_data-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, ratione.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <div class="experience_container container swiper">
+        <h2 class="experience_title">Experiencia</h2>
+        <div class="experience_container-cards swiper-wrapper">
+          <div class="swiper-slide">
+            <article class="experience_card">
+              <img src="assets/img/Wizeline.png" alt="w" class="experience_img">
+              <div class="experience_data">
+                <h3 class="experience_data-title">Interactive Designer</h3>
+                <span class="experience_data-date">2 años</span>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="experience_card">
+              <img src="assets/img/academlo.png" alt="w" class="experience_img">
+              <div class="experience_data">
+                <h3 class="experience_data-title">UX/UI Design</h3>
+                <span class="experience_data-date">1 año</span>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="experience_card">
+              <img src="assets/img/Hootsuite.png" alt="w" class="experience_img">
+              <div class="experience_data">
+                <h3 class="experience_data-title">Product Designer</h3>
+                <span class="experience_data-date">1 año</span>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="experience_card">
+              <img src="assets/img/Google.png" alt="w" class="experience_img">
+              <div class="experience_data">
+                <h3 class="experience_data-title">UI Engineer</h3>
+                <span class="experience_data-date">6 meses</span>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="experience_card">
+              <img src="assets/img/Google.png" alt="w" class="experience_img">
+              <div class="experience_data">
+                <h3 class="experience_data-title">Frontend and UI Dev</h3>
+                <span class="experience_data-date">6 meses</span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <div class="portfolio" id="portfolio">
+      <div class="portfolio_container container">
+        <h2 class="portfolio_title">Mi portafolio</h2>
+        <div class="portfolio_projects">
+          <img class="portfolio_projects" src="assets/img/Ejemplo 2.png" alt="">
+          <img class="portfolio_projects" src="assets/img/Ejemplo 1.png" alt="">
+          <img class="portfolio_projects" src="assets/img/Ejemplo 3.png" alt="">
+          <img class="portfolio_projects" src="assets/img/Ejemplo 4.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="contact_container container">
+        <h2 class="contact_title">Contacto</h2>
+        <div class="contact_content grid">
+          <div class="contact_data grid">
+            <div>
+              <div class="contact_info">
+                <i class='bx bx-phone contact_info-icon' ></i>
+                <div>
+                  <h3 class="contact_info--title">Número</h3>
+                  <span class="contact_info--subtitle">78503310</span>
+                </div>
+              </div>
+            </div>    
+            <div>
+              <div class="contact_info">
+                <i class='bx bx-envelope contact_info-icon' ></i>
+                <div>
+                  <h3 class="contact_info-title">Correo</h3>
+                  <span class="contact_info-subtitle">Hanserm18@gmail.com</span>
+                </div>
+              </div>
+            </div>    
+            <div>
+              <div class="contact_info">
+                <i class='bx bx-map contact_info-icon' ></i>
+                <div>
+                  <h3 class="contact_info-title">Dirección</h3>
+                  <span class="contact_info-subtitle">Santa Cruz - Bolivia</span>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <form class="contact_form">
+            <div class="contact_inputs grid">
+              <div class="contact_group">
+                <label for="" class="contact_label">Nombre</label>
+                <input type="text" class="contact_input">
+              </div>
+              <div class="contact_group">
+                <label for="" class="contact_label">Correo</label>
+                <input type="email" class="contact_input">
+              </div>
+              <div class="contact_group">
+                <label for="" class="contact_label">Proyecto</label>
+                <input type="text" class="contact_input">
+              </div>
+              <div class="contact_group">
+                <label for="" class="contact_label">Mensaje</label>
+                <textarea cols="0" rows="10" class="contact_input"></textarea>
+              </div>   
+              <div class="contact_button">
+                <a href="#" class="contact_button-btn">
+                  Enviar Mensaje
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer_container container">
+      <p class="footer_copy">
+        <span class="copy-size">Hans Ribera</span> &copy; 2022. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
